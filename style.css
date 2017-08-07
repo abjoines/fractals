@@ -74,3 +74,9 @@ img.crop {
 #bottom {
 	margin-bottom:30px;
 }
+.page-footer {
+	background-color: green;
+}
+.img-source {
+	font-size: 10px;
+}
