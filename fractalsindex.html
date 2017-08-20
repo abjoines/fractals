@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fractal World</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+
+<body>
+	<!-- Dropdown Trigger -->
+  <a class='dropdown-button btn show-desktop' href='#' data-activates='dropdown1'>Menu</a>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content show-desktop'>
+    <li><a href="#what">What is a Fractal?</a></li>
+    <li><a href="#types">Types of Fractal Generation</a></li>
+    <li><a href="#nature">In Nature</a></li>
+    <li><a href="#lab">Lab</a></li>
+    <li><a href="#uses">Applied</a></li>
+    <li class="divider"></li>
+    <li><a href="#sources">Sources</a></li>
+  </ul>
+	<div class="container-fluid">
+		<div class="parallax-container">
+      <div class="parallax">
+      	<img src="https://c2.staticflickr.com/6/5044/5219704108_b73da56f89_b.jpg">
+      	</div>
+    </div>
+    </div>
+
+    <div class="container">
+    <div class="container">
+    	<h2>Fractal World</a></h2>
+			<h4>Alyssa Joines</h4>
+			<h6><center>JULY 2017</h6>
+	<a id="what">
+    <h5>What is a Fractal?</h5>
+    <p>Fractals are multidisciplinary marvels. When most people hear the word "fractal" they might think of beautiful computer-generated images frequently used as desktop backgrounds, but fractals are actually found and used in a wide variety of subjects. Fractals are helpful not only in modeling chaos and in simulations of particle motion but also in technology, biology, and art. Approximate fractals are also found in many natural phenomena. To name just a few, fractal branching has been observed in lightning, leaves, trees and river networks. Fractals don’t have a formal definition, but can be identified through different properties. So what properties can we use to define a fractal? Self-Similarity and Fractal Dimension.
+ 	</p>
+ 	<h5><a class="link" href="http://math.rice.edu/~lanius/fractals/self.html" target="_blank">Self-Similarity:</a></h5>
+ 	<p>A fractal is a pattern that repeats at infinite scales. This property is called "self-similarity" and it can be observed in most fractals. The idea of self-similarity is that if you were to take the fractal as a whole and then zoom in, you would see something very similar or identical to the whole. This means that fractals are composed of smaller versions of themselves. This can be the result of iteration and repetition in the formation of some fractals. In this way, fractals are surprisingly very simple to construct despite their complex appearance. It’s also possible for a fractal to be self-affine, which is essentially a distorted self-similarity where copies are transformed differently instead of following a uniform set of rules throughout.<sup><a class="link" href="#sources">1</sup></a>
+	</p>
+	<h5><a class="link" href="http://www.wahl.org/fe/HTML_version/link/FE4W/c4.htm" target="_blank">Fractal Dimension:</a></h5>
+	<p>Fractals are non-Euclidian geometries meaning they cannot be defined the same way that the geometries we’ve previously studied are defined. While the topological dimensions that we normally classify as the line, square, and cube (1, 2, and 3, respectively) are the most familiar, there are also non-integer dimensions in which most fractals exist. For example the fractal dimension of the Koch snowflake is 1.26. The fractal dimension can be seen as a measure of roughness of the geometry. While most fractals have non-integer dimensionality it is also possible if enough empty space exists within the fractal for it to have an integer dimension. For example, if there is an object that typically exists in 3 dimensions but just enough of its volume has been removed it will measure as a 2 dimensional geometry. To find fractal dimension there are multiple methods: one for self-similarity, and one more typically used on natural fractals called the box counting method. If the fractal is self-affine it is much more difficult to measure its dimension because it is scaled and transformed differently throughout.<sup><a class="link" href="#sources">2</sup></a>
+	</p>
+	</a>
+	</div>
+	</div>
+	
+
+		<div class="container-fluid">
+		<div class="parallax-container">
+      <div class="parallax"><img src="https://i.imgur.com/mHX49lW.gif"></div>
+    </div>
+    </div>
+    <a id="types">
+    <h5><center>Types of Fractals</h5>
+ 	
+    <div class="container">
+    	<div class="container">
+		<h5><a class="link" href="http://www.hiddendimension.com/fractalmath/ifs_fractals_main.html" target="_blank">Iterated Function Systems (IFS)</a></h5>
+		<p>Iterated function systems are one method of constructing a self-similar fractal. These fractals are created using many versions of itself that have been transformed according to the function of that system. Each of those transformed copies are made up of more copies following the same transformation rules and so on and so on, making these fractals infinitely detailed. The different ways that the copies are transformed are through scaling, reflection, rotation, and translation (vertical or horizontal motion). Each IFS uses a different set of rules.<sup><a class="link" href="#sources">3</sup></a>
+		</p>
+		<p>Examples: <a class="link" href="http://paulbourke.net/fractals/gasket/" target="_blank">Sierpinski Gasket</a>, <a class="link" href="http://datagenetics.com/blog/january12016/index.html" target="_blank">Koch Curve</a>, <a class="link" href="https://blogs.scientificamerican.com/roots-of-unity/a-few-of-my-favorite-spaces-the-menger-sponge/" target="_blank">Menger Sponge</a>, <a class="link" href="https://en.wikipedia.org/wiki/L%C3%A9vy_C_curve" target="_blank">Levy C curve</a>, <a class="link" href="https://blogs.scientificamerican.com/roots-of-unity/a-few-of-my-favorite-spaces-the-cantor-set/#" target="_blank">Cantor Set</a>, <a class="link" href="http://datagenetics.com/blog/march22013/index.html" target="_blank">Hilbert Curve, <a class="link" href="http://www.malinc.se/math/geometry/apolloniangasketen.php" target="_blank">Apollonian Gasket</a>, <a class="link" href="http://davis.wpi.edu/~matt/courses/fractals/trees.html" target="_blank">Fractal Trees</a>
+		</div>
+ 
+    <div class="container">
+		<h5><a class="link" href="http://www.fractal-explorer.com/complexnumbers.html" target="_blank">Complex Numbers</a></h5>
+		<p>Using computers, fractals can be created using complex numbers. The complex numbers in these fractals are made up of an x value which is the real component and a y value which is the imaginary component (both c and z are complex numbers). In Julia sets, the equation z = z² + c is used, where c is a constant complex number and z is found and then fed back into the formula after each iteration creating a set of points when |z| &lt;2 that lie in the Julia set. By changing the constant c you can generate different Julia sets. The Mandelbrot set is similar and contains different Julia sets within it, acting essentially as a map of all them. It uses the same equation as the Julia set, except that c is another variable and not a constant. Values that diverge are not in the set.  For example, if c = -1 it will be bounded and in the set, but if c = 1 it will be infinite&#47;unbounded and not in the set.<sup><a class="link" href="#sources">4</sup></a>
+		</p>
+		<p>When creating these images the color is typically determined by how many iterations it takes z to “escape”, which is this case would mean to have a value greater than 2. The magnitude of iterations required to get the infinite detail in these sets is immense, which is why the Mandelbrot set was not discovered until there was access to computers. 
+		</p>
+		<p>Examples: <a class="link" href="http://www.karlsims.com/julia.html" target="_blank">Julia Set</a>, <a class="link" href="https://plus.maths.org/content/unveiling-mandelbrot-set" target="_blank">Mandelbrot Set</a>
+	</div>
+  </ul>
+	</div>
+	</div>
+ 	<div class="container">
+	<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="https://i.stack.imgur.com/V8GXd.gif"> <!-- random image -->
+        <div class="caption center-align">
+        	<h5 class="green-text">Koch Curve</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://i.imgur.com/9TvAzQD.gif"> <!-- random image -->
+         <div class="caption center-align">
+        	<h5 class="green-text">Sierpinksi Gasket</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://www.matrix67.com/blogimage_2014/fractal_gifs/levy_c.gif"> <!-- random image -->
+         <div class="caption center-align">
+        	<h5 class="green-text">Levy C Curve</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://www.junkdna.com/three_dimensional_hilbert_curve_animated.gif"> <!-- random image -->
+         <div class="caption center-align">
+        	<h5 class="green-text">Hilbert Curve</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://media.giphy.com/media/NyAH7qnSa4HbG/giphy.gif"> <!-- random image -->
+         <div class="caption center-align">
+        	<h5 class="green-text">Apollonian Gasket</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mandelbrot_sequence_new.gif"> <!-- random image -->
+         <div class="caption center-align">
+        	<h5 class="green-text">Mandelbrot Set</h5>
+        </div>
+      </li>
+     </ul>
+     </div>
+     </div>
+     </a>
+	<div class="container-fluid">
+		<div class="parallax-container">
+      <div class="parallax"><img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/1000/1795/PIA03424_lrg.jpg"></div>
+    </div>
+    </div>
+    <h6 class="img-source"><em>Image: NASA</em></h6>
+	<h5><center>In Nature</h5>
+	<a id="nature">
+    <div class="container">
+    <div class="container">
+	<h5>Where?</h5>
+	<p>Fractals patterns and properties can be found in all parts of nature such as large scale terrain, plants, and water. Weather patterns have a fractal nature, as do lightning and drops of water. These drops of water fall from clouds as rain that may enter a stream which may carve out a mountain and then reach a cliff and break into a waterfall. All of these things occur in a fractal pattern, as is seen from many aerial views of mountains and coastal inlets and rivers. We see fractal properties across all scales, from bacteria growth and the organization of the chromatin in our cells, to our circulatory and pulmonary systems. Similarly, fractal branching is observed in trees and leaves and a large variety of other plants.
+	</p>
+	<h5>Why?</h5>
+	<p>Why has everything in the last paragraph come to exist with fractal properties? There are many reasons why fractal organization is advantageous. The big one is efficiency (both energy efficent and spatially efficient). Fractal organization can allow a lot to be compacted into a very small space. For example, our cells must be organized to be as energy efficient and spacially efficient as possible so it makes sense that the chromatin in our cells would be organized using a fractal pattern. Seeing as our cells are microscopically small yet have to contain all of our genetic information along with organelles etc. theres definitely the need for this kind of organization. The branching seen in trees and our circulatory system are also built for efficiency. These fractal branching patterns allow easy, fast, and even distribution of blood or nutrients to all parts of the body or plant covering a large area without taking up valuable space. 
+	</p>
+	</div>
+
+	<div class="container">
+	<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="http://tenspeedhero.com/wp-content/uploads/mountains.jpg"> <!-- random image -->
+      </li>
+      <li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Broccoli_and_cross_section_edit.jpg"> <!-- random image -->
+      </li>
+      <li>
+        <img src="http://blogs.uoregon.edu/artofnature/files/2013/12/Fractal_Fern_by_SaroB_W-1tzam24.jpg"> <!-- random image -->
+      </li>
+      <li>
+        <img src="https://s-media-cache-ak0.pinimg.com/736x/cb/e7/d1/cbe7d1a8c9dbc465256e6815f83517eb.jpg"> <!-- random image -->
+      </li>
+      <li>
+        <img src="http://thescienceexplorer.com/sites/thescienceexplorer.com/files/styles/content_image__large/public/800px-Angelica_flowerhead_showing_pattern.JPG?itok=tfzWXhd9&timestamp=1467737100"> <!-- random image -->
+      </li>
+      <li>
+        <img src="https://cdn.theconversation.com/files/163339/width754/image-20170330-4557-1tpeqb6.jpg"> <!-- random image -->
+      </li>
+     </ul>
+     </div>
+     </div>
+     </a>
+     <a id="lab">
+	<div class="container">
+	<h5>Do self-similar plants also have fractal dimensions?</h5>
+	<p>The plant that I focused on is <em>Brassica Oleracea</em> which is more commonly known as wild cabbage. This plant is cultivated into a variety of vegetables including broccoli and cauliflower. Both broccoli and cauliflower are fractal in design, beautifully exhibiting the property of self-similarity. One head of broccoli or cauliflower can be divided into many smaller heads. To learn more about this interesting phenomena I decided to do a short lab. The purpose of this lab is to define the fractal dimensions of broccoli and cauliflower. The concept was inspired by a quote from Benoit Mandelbrot’s book <em>The Fractal Geometry of Nature</em>. He posed the question, &quot;Could it be significant that part of the geometric difference between cauliflower and broccoli is quantified by a fractal dimension?&quot;<a class="link" href="#sources"><sup>5</sup></a> This led me to wonder what the fractal dimensions of the two vegetables are, and if this holds some kind of significance, especially considering the fact that both cauliflower and broccoli are derived from the same plant.
+	</p>
+	</div>
+	
+	<div class="container">
+	<h5>Procedure:</h5> 
+		<ol>
+			<li>Acquire one head of broccoli and one head of cauliflower</li>
+			<li>Measure length of the whole head</li>
+			<li>Break into the next decomposition (first level of smaller pieces that branch immediately from the whole) and measure length.</li>
+			<li>Record the measurements for each length and then take the mean length of all of the pieces from that decomposition.</li>
+			<li>Repeat for each level of branching</li>
+			<li>Calculate dimension for each level of branching using the equation:  N = 1/(s<sup>d</sup>), where N is the number of pieces that branched off in each level and s is the scaling factor for those pieces. S can be found by dividing the mean length of the previous level by the mean length of the smaller level.<sup><a class="link" href="#sources">6</sup></a> (i.e. if the whole broccoli length measurement was 16 cm and the first level of branching mean length was 7.5 cm 16/7.5=2.13 so s = 1/2.13)</li>
+			<li>Solve for d for each decomposition</li>
+			<li>Take the mean of all of the values of d that you get for each level and that is the D value for that whole piece of broccoli or cauliflower</li>
+		</ol>
+		<h5><center>My Measurements</center></h5>
+		<h6 class="under"><center>Broccoli</center></h6>
+		<div class="container">
+		<div class="row">
+			<div class="col m4">
+		<ul>
+			<li><h6>Decomposition 1</h6>
+				<ul>
+					<li>N = 17</li>
+					<li>s = 1/2.654</li>
+					<li>17 = 1/(1/2.654<sup>d</sup>)</li>
+					<li>d<sub>1</sub> = 2.90268</li>
+				</ul>
+			</li>
+		</ul>
+		</div>
+			<div class="col m4">
+		<ul>
+			<li><h6>Decomposition 2</h6>
+				<ul>
+					<li>N = 8</li>
+					<li>s = 1/2.431</li>
+					<li>8 = 1/(1/2.431<sup>d</sup></li>
+					<li>d<sub>2</sub> = 2.34092</li>
+				</ul>
+			</li>
+		</ul>
+		</div>
+			<div class="col m4">
+		<ul>
+			<li><h6>Decomposition 3</h6>
+				<ul>
+					<li>N = 6</li>
+					<li>Too difficult to accurately measure length.</li>
+				</ul>
+			</li>
+		</ul>
+		</div>
+	</div>
+	</div>
+
+	<h6><center>d<sub>1</sub>&#43;d<sub>2</sub>&#47;2&#61;D<sub>final</sub></h6>
+	<h6 id="bottom"><center>D<sub>final</sub> = 2.62</h6>
+
+		<h6 class="under"><center>Cauliflower</center></h6>
+		<div class="container">
+		<div class="row">
+			<div class="col m4">
+		<ul>
+			<li><h6>Decomposition 1</h6>
+				<ul>
+					<li>N = 13</li>
+					<li>s = 1/2.193</li>
+					<li>13 = 1/(1/2.193<sup>d</sup>)</li>
+					<li>d<sub>1</sub> = 3.26633</li>
+				</ul>
+			</li>
+		</ul>
+		</div>
+			<div class="col m4">
+		<ul>
+			<li><h6>Decomposition 2</h6>
+				<ul>
+					<li>N = 7</li>
+					<li>s = 1/2.254</li>
+					<li>7 = 1/(1/2.254<sup>d</sup></li>
+					<li>d<sub>2</sub> = 2.39436</li>
+				</ul>
+			</li>
+		</ul>
+		</div>
+			<div class="col m4">
+		<ul>
+			<li><h6>Decomposition 3</h6>
+				<ul>
+					<li>N = 11</li>
+					<li>Too difficult to accurately measure length. Maintaining consistency with broccoli procedure. </li>
+				</ul>
+			</li>
+		</ul>
+		</div>
+	</div>
+	</div>
+	</div>
+
+	<div class="container">
+	<h6><center>d<sub>1</sub>&#43;d<sub>2</sub>&#47;2&#61;D<sub>final</sub></h6>
+	<h6 id="bottom"><center>D<sub>final</sub> = 2.83</h6>
+	</div>
+	</a>
+	<div class="container">
+		<p>In this experiment I chose to take the mean of the lengths of each decomposition in order to find the &quot;normal&quot; length of each level of the broccoli and cauliflower. This is necessary because of the many irregularities that can result from the factors which influence plant growth. The is effective because of the Central Limit Theorem which tells us that given we have a large enough number of observations from a sample, the values will be distributed according to a normal distribution (a bell curve). Therefore taking the average of said values will result in a value which is representative of the whole. 
+		</p>
+	</div>
+	<div class="container">
+		<h5>What does the fractal dimension of an object tell us?</h5>
+		<p>The main use of a fractal dimension is to quantify roughness of an object.<a class="link" href="#sources"><sup>7</sup></a> Roughness can be defined as surface irregularity. When we’ve learned about dimension before, it has been in the sense of the number of possible ways to move on a plane or in space. For example, a 2-dimensional square lies on an (x,y) plane while a 3-dimensional cube lies on an (x,y,z) plane. Fractal dimensions, describe the relative amount of space that an object occupies. To reiterate, this means that a 3-dimensional object that has had a lot of its volume removed, or in other words <em>lacks</em> density, could have a fractal dimension of 2 because of the <em>relative</em> amount of space that object is actually occupying.  This also means that there is a correlation between density and fractal dimension. An object that is very dense will have a higher fractal dimension than an object that is less dense. This is seen in the lab where we got D<sub>broccoli</sub> = 2.62 and D<sub>cauliflower</sub> = 2.88. The larger value of D for the cauliflower shows that it is denser than the broccoli, which is confirmed by their measured dimensions. 
+		</p>
+	</div>
+
+</div>
+	<div class="container-fluid">
+		<div class="parallax-container">
+      <div class="parallax"><img src="https://www.jackson-pollock.org/images/paintings/convergence.jpg"></div>
+    </div>
+    </div>
+    <h6 class="img-source"><em>Image: <a href="https://www.jackson-pollock.org/" class="link" target="_blank">jackson-pollock.org</em></h6>
+    <a id="uses">
+    <h5><center>Applications</h5>
+    <div class="container">
+	<div class="container">
+	<p>Hopefully by this point you are starting to realize that fractals are everywhere. While I chose to focus on broccoli and cauliflower, there are several fields of study and a variety of phenomena in which fractals are useful. They have an incredible ability to describe objects, events, and movements that may have previously been considered “random” or too complicated to define. Since fractals don’t follow the rules of Euclidian geometry, they’re effective in describing things in our physical world that couldn't previously be described.</p>
+	<p>That said, nature isn’t perfect and it has physical restrictions. For example, when you continue zooming in all the way to the cells that make up a tree’s branches or the molecules that make up a cloud, they obviously are not branch-shaped or cloud-shaped. These physical limits mean real fractal objects do not have the same infinite detail that computer-generated fractals do. Computer generated fractals and fractal organization are highly useful because of their infinite capabilities. Below are a handful of areas in which fractals and their amazing properties have been utilized.
+	</p>
+	</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+		<div class="col m8 offset-m2">
+		<h5><center><a href="">More</a></center></h5>
+		</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col m4">
+				<img class="responsive-img" src="https://www.ld-didactic.de/phk/images/versuche/VC1131_Grafik.jpg">
+				<h5><a class="link" href="https://www.youtube.com/watch?annotation_id=annotation_1111465409&feature=iv&src_vid=4m5JnJBq2AU&v=NHo6LTXdFns" target="_blank">Brownian Motion</a></h5>
+				<ul>
+					<li>Particle Motion</li>
+					<li><p>Brownian Motion is essentially the way that particles move through a medium due to collisions. Previously believed to be random and directionless, it's been discovered that this motion is fractal over enough scales to be substantial. This can be useful in describing or predicting trajectories of particles.  
+					</p></li>
+				</ul>
+			</div>
+			<div class="col m4">
+				<img class="responsive-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Animated_fractal_mountain.gif/450px-Animated_fractal_mountain.gif">
+				<h5><a class="link" href="http://scienceblogs.com/goodmath/2007/09/06/fractal-mountains/" target="_blank">CGI Fractal Landscapes</a></h5>
+				<ul>
+					<li>Computer-Generated Terrain</li>
+					<li><p>As we now know, mountains are irregular fractal geometries. As a result of this knowledge, algorithms have been developed which generate fractal behavior to create realistic natural landscapes such as mountains. Computer-generated imagery (CGI) is used in movies, TV, and sometimes in printed media. 
+					</p></li>
+				</ul>
+			</div>
+			<div class="col m4">
+				<img class="responsive-img" src="https://cdn01.vulcanpost.com/wp-uploads/2017/04/141016-stockmarket-stock.jpg">
+				<h5><a class="link" href="http://www.investopedia.com/articles/trading/06/fractals.asp" target="_blank">Stock Market</a></h5>
+				<ul>
+					<li>A Not-So-Random Walk Down Wall Street</li>
+					<li><p>Many people might believe that the stock market is a world of randomness, but fractals beg to differ. The trends that exist in the stock market can be determined by fractals. By using fractals one can identify patterns within these trends allowing potential predictions.
+					</p></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	<div class="container">
+		<div class="row">
+			<div class="col m4">
+				<img class="responsive-img" src="https://www.jackson-pollock.org/images/jackson-pollock-paint.jpg">
+				<h5><a class="link" href="https://www.adventure-journal.com/2017/04/nature-soothing-might-fractals/" target="_blank" >Art: Psychology and Forgeries</a></h5>
+				<ul>
+					<li>Aesthetics &amp; Fractals</li>
+					<li><p>Fractals can be found in art and architecture throughout history, from Lonardo da Vinci to M.C. Escher. The presence of fractals in visual media has been shown to reduce stress levels and be generally appealing, a phenomenon referred to as fractal fluency. Not only are fractals soothing, but they have also shown to be helpful in identifying Jackson Pollock forgeries. Recent studies showed that fractal analysis helped identify forgeries with an impressive 93 percent success rate. 
+					</p></li>
+				</ul>
+			</div>
+			<div class="col m4">
+				<img class="responsive-img" src="https://www.bfi.org/sites/default/files/styles/header_banner/public/images/complex-system-wide.jpg?itok=qV29IEnC" src="https://www.bfi.org/sites/default/files/styles/header_banner/public/images/complex-system-wide.jpg?itok=qV29IEnC">
+				<h5><a class="link" href="http://www.directnetworksinc.com/2014/01/03/fractals-the-internet-and-the-art-of-order-in-chaos/" target="_blank">The Internet</a></h5>
+				<ul>
+					<li>Round-Trip Time and Connectivity Maps</li>
+					<li><p>The above image is a cropped version of a spherical round-trip time (RTT) map created using the software called Walrus developed by Young Hong at the Center for Applied Internet Data Analysis. This software allows us to visualize connectivity and other internet-related data. RTT maps measure the time between when a query is sent and when a reply is received. Apart from the visual fractal qualities of these maps, the internet's structure itself is self-similar as it follows a power law distribution. 
+					</p></li>
+				</ul>
+			</div>
+			<div class="col m4">
+				<img class="responsive-img" src="http://scienceblogs.com/startswithabang/files/2013/02/2xcluster.jpg">
+				<h5><a class="link" href="http://www.samwoolfe.com/2014/03/could-universe-be-fractal.html" target="_blank">The Universe?</a></h5>
+				<ul>
+					<li>Theories of Fractal Cosmology</li>
+					<li><p>The theories surrounding the formation and structure of our universe are varied. The universe does exhibit properties of self similarity and it varies in density. If one assumes that the universe is built upon the same chaotic dynamics that we observe in our physical world on earth, then a fractal universe would be the next logical assumption. However, there are a lot of critics of this theory, which is why I would suggest you follow the links and do some research to form your own opinion.	
+					</p></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+		</a>
+		<h6><center><a class="link" href="http://fractalfoundation.org/resources/what-are-fractals/" target="_blank">Play with Fractal Branching here!</a></h6>
+		<h6><center id="fine-print" class="show-desktop">(Click on topics to learn more)</center></h6>
+	<div class="container">
+	<div class="container">
+	<a id="sources">
+	<h5><center>Sources &amp; Further Reading</h5>
+	<p>As my project and webpage have only scratched the surface of the Fractal World, I've added not only the sources I used in my own research but also more for further reading on related topics that I didn't have time to fully explore. (I probably will expand the webpage in the next couple months as I continue research!)</p>
+	<ul id="sources"><center>
+		<li>[<a class="link" href="#what">1</a>,<a class="link" href="#types">3</a>]<a class="link" href="http://yalebooks.yale.edu/book/9780300197877/fractal-worlds" target="_blank">Frame, Michael, Amelia Urry, and Steven H. Strogatz. <em>Fractal worlds: grown, built, and imagined</em>. New Haven: Yale U Press, 2016. Print.</a></li>
+		<li>[<a class="link" href="#what">2</a>]<a class="link" href="http://www.vanderbilt.edu/AnS/psychology/cogsci/chaos/workshop/Fractals.html" target="_blank"><em>Fractals &amp; the Fractal Dimension</em>. Web.</a></li>
+		<li>[<a class="link" href="#types">4</a>]<a class="link" href="http://www.fractal-explorer.com/complexnumbers.html" target="_blank">"Complex Numbers." <em>Fractal Explorer</em>. Web.</a></li>
+		<li>[<a class="link" href="#lab">5</a>]<a class="link" href="https://www.amazon.com/Fractal-Geometry-Nature-Benoit-Mandelbrot/dp/0716711869" target="_blank">Mandelbrot, Benoît. <em>The Fractal Geometry of Nature</em>. New York: W.H. Freeman and Company, 2006. Print.</a></li>
+		<li>[<a class="link" href="#lab">6</a>]<a class="link" href="http://pages.cs.wisc.edu/~ergreen/honors_thesis/dimension.html" target="_blank">Green, Eric. "Fractal Dimension." <em>Measuring Fractal Dimension</em>. 1998. Web. </a></li>
+		<li>[<a class="link" href="#lab">7</a>]<a class="link" href="http://fractalfoundation.org/OFC/OFC-10-4.html" target="_blank">"Fractal Dimension." <em>Fractal Foundation Online Course - Chapter 1 - FRACTALS IN NATURE</em>.</a></li>
+		<li><a class="link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3467038/" target="_blank">Bancaud, A., C. Lavelle, S. Huet, and J. Ellenberg. "A fractal model for nuclear organization: current evidence and biological implications." <em>Nucleic Acids Research</em> 40.18 (2012). Web.</a></li>
+		<li><a class="link" href="https://hypertextbook.com/facts/2002/broccoli.shtml" target="_blank">Elert, Glenn. "Fractal Dimension of Broccoli." <em>Fractal Dimension of Broccoli - The Physics Factbook</em>.</a></li>
+		<li><a class="link" href="http://www.fractal.org/Bewustzijns-Besturings-Model/Fractals-Useful-Beauty.htm" target="_blank">Patrzalek, Edyta. <em>Fractals: Useful Beauty</em>. Web.</a></li>
+		<li><a class="link" href="https://www.adventure-journal.com/2017/04/nature-soothing-might-fractals/" target="_blank">Taylor, Richard. "Why Is Nature So Soothing? It Might Be All the Fractals." <em>Adventure Journal</em>. 02 Apr. 2017. Web.</a></li>
+		<li><a class="link" href="https://botanistinthekitchen.blog/2012/11/05/the-extraordinary-diversity-of-brassica-oleracea/" target="_blank">Osnas, Jeanne L. D. "The extraordinary diversity of Brassica oleracea." <em>The Botanist in the Kitchen</em>. 22 Nov. 2015. Web.</a></li>
+		<li><a class="link" href="http://paulbourke.net/fractals/gasket/" target="_blank">Bourke, Paul. "Sierpinski Gasket." Mar. 1993. Web.</a></li>
+		<li><a class="link" href="http://datagenetics.com/blog/january12016/index.html" target="_blank">"Koch Snowflake." <em>Data Genetics.</em> Web.</a></li>
+		<li><a class="link" href="https://blogs.scientificamerican.com/roots-of-unity/a-few-of-my-favorite-spaces-the-menger-sponge/" target="_blank">Lamb, Evelyn. "A Few of My Favorite Spaces: The Menger Sponge." <em>Scientific American</em>. 31 July 2016. Web.</a></li>
+		<li><a class="link" href="https://blogs.scientificamerican.com/roots-of-unity/a-few-of-my-favorite-spaces-the-cantor-set/#" target="_blank">Lamb, Evelyn. "A Few of My Favorite Spaces: The Cantor Set." <em>Scientific American</em>. 26 Mar. 2016. Web.</a></li>
+		<li><a class="link" href="http://datagenetics.com/blog/march22013/index.html" target="_blank">"Hilbert Curve." <em>Data Genetics.</em> Web.</a></li>
+		<li><a class="link" href="http://www.malinc.se/math/geometry/apolloniangasketen.php" target="_blank">"Geometry - Apollonian Gasket." <em>Malin Christersson's Math Site</em>. Web.</a></li>
+		<li><a class="link" href="http://davis.wpi.edu/~matt/courses/fractals/trees.html" target="_blank">"Fractal Trees." <em>Exploring Fractal Trees</em>. Web.</a></li>
+		<li><a class="link" href="http://www.karlsims.com/julia.html" target="_blank">Sims, Karl. "Understanding Julia and Mandelbrot Sets." Web.</a></li>
+		<li><a class="link" href="https://plus.maths.org/content/unveiling-mandelbrot-set" target="_blank">Devaney, Robert L. "Unveiling the Mandelbrot set." <em>Plus Magazine</em>. 1 Sept. 2006. Web.</a></li>
+		<li><a class="link" href="http://www.hiddendimension.com/fractalmath/ifs_fractals_main.html" target="_blank">"IFS Fractals ." <em>Hidden Dimension Galleries</em>. Web.</a></li>
+		<li><a class="link" href="http://www.wahl.org/fe/HTML_version/link/FE4W/c4.htm" target="_blank">"Chapter 4: Calculating Fractal Dimensions." <em>Fractal Explorer</em>. Web.</a></li>
+		<li><a class="link" href="http://math.rice.edu/~lanius/fractals/self.html" target="_blank">Lanius, Cynthia. "Fractals Properties: Self SImilarity." <em>Rice</em>. Web.</a></li>
+		<li>(All images and gifs sourced via Google Images)</li>
+		</center>
+	</ul>
+	</a>
+	</div>
+	</div>
+	</div>
+	<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Fractal World</h5>
+                <p class="grey-text text-lighten-4">This website is an ongoing project in which I am studying fractals to understand and identify their presence in our world. For more information about fractals click on any of the links which turn green when hovered over. This project was made possible and funded by Eugene Lang College The New School for Liberal Arts.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://interdisciplinarysciencelang.wordpress.com/" target="_blank">IS Blog</a></li>
+                  <li><a class="grey-text text-lighten-3" href="http://www.newschool.edu/" target="_blank">The New School</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!" target="_blank"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Copyright Text
+            </div>
+          </div>
+        </footer>
+	</div>
+</body>
+</html>
